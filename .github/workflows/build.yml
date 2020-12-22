@@ -31,6 +31,10 @@ jobs:
         path: amazon-cloudwatch-agent
         fetch-depth: 0
 
+    - name: Checkout submodules
+      run:  git submodule update --init
+      working-directory: amazon-cloudwatch-agent
+
     - name: Debug go.mod
       run: cat go.mod
       working-directory: amazon-cloudwatch-agent
