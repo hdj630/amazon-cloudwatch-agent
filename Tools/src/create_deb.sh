@@ -19,6 +19,7 @@ mkdir -p ${BUILD_ROOT}/opt/aws/amazon-cloudwatch-agent/cwagent-otel-collector/va
 mkdir -p ${BUILD_ROOT}/opt/aws/amazon-cloudwatch-agent/cwagent-otel-collector/etc/cwagent-otel-collector.d
 mkdir -p ${BUILD_ROOT}/opt/aws/amazon-cloudwatch-agent/bin
 mkdir -p ${BUILD_ROOT}/opt/aws/amazon-cloudwatch-agent/doc
+mkdir -p ${BUILD_ROOT}/opt/aws/amazon-cloudwatch-agent/manager
 mkdir -p ${BUILD_ROOT}/etc/init
 mkdir -p ${BUILD_ROOT}/etc/systemd/system/
 
